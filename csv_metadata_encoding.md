@@ -226,10 +226,10 @@ CSV Metadata Encoding: Single-file Archive Format
 It may be useful to encode the metadata into the same file as the data itself.
 In this "archive" format, the file contents consist of the concatenation of the data in the following order:
 
-  # The Table Metadata file
-  # Optional blank lines
-  # The Transposed Column Metadata file
-  # The Primary table without the header row and with an empty column prepended
+  1. The Table Metadata file
+  2. Optional blank lines
+  3. The Transposed Column Metadata file
+  4. The Primary table without the header row and with an empty column prepended
 
 It is recommended that the data be saved with the following name format:
 
