@@ -4,6 +4,7 @@ CSV-MDE - CSV Metadata Encoding
 Copyright (c) 2016-2018 Upstream Research Inc.
 
 2016-07-27 (db) Created
+
 2018-10-14 (db) Revised
 
 

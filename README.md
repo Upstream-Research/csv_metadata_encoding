@@ -2,7 +2,8 @@
 
 Copyright (c) 2018 Upstream Research, Inc.
 
-This repository hosts a specification for encoding metadata associated with a CSV (tabular data document).
+This repository hosts a specification for encoding metadata associated with a 
+Comma-Separated-Value (CSV) document containing tabular data.
 
 The specification provided here is subject to an MIT License.
 
