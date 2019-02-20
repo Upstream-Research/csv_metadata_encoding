@@ -47,7 +47,7 @@ even if that metadata is not as conformant, conventional, complex, or comprehens
 CSV Metadata Encoding: Multi-file Canonical Format
 --------------------------------------------------
 
-The basic metadata encoding format propsed here assumes that one already has a file of 
+The basic metadata encoding format proposed here assumes that one already has a file of 
 CSV formatted tabular data, the first row of which (i.e. the "header" row)
 contains names for the columns in the table.
 We shall call this original file the *Primary Table* file.
