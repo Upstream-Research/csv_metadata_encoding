@@ -26,7 +26,8 @@ setup(
         ]
     ,entry_points = {
         'console_scripts': [
-            'csv-mkmeta = csv_metadata.csv_mkmeta:console_main'
+             'csv-mkmeta = csv_metadata.csv_mkmeta:console_main'
+            ,'csv-meta2csvt = csv_metadata.csv_meta2csvt:console_main'
             ]
         }
     ,long_description = '''
