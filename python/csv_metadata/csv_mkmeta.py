@@ -9,7 +9,6 @@
 help_text = (
     "CSV-MKMETA tool version 20170302:20181014\n"
     "Creates CSV Metadata supplementary files by analyzing a CSV table file\n"
-    "Copyright (c) 2017-2018 Upstream Research, Inc.\n"
     "\n"
     "csv-mkmeta [OPTIONS] InputFile\n"
     "\n"

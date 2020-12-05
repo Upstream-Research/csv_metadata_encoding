@@ -8,7 +8,6 @@
 help_text = (
     "CSV-META2CSVT tool version 20200406\n"
     "Creates a .csvt file from a CSV-Meta schema file.\n"
-    "Copyright (c) 2020 Upstream Research, Inc.\n"
     "\n"
     "csv-meta2csvt [OPTIONS] InputFile\n"
     "\n"
