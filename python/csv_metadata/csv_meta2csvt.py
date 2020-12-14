@@ -6,7 +6,7 @@
 ## python 2 does not work due mostly to issues with csv and io modules with unicode data
 
 help_text = (
-    "CSV-META2CSVT tool version 20200406\n"
+    "CSV-META2CSVT tool version 20200406:20201213\n"
     "Creates a .csvt file from a CSV-Meta schema file.\n"
     "\n"
     "csv-meta2csvt [OPTIONS] InputFile\n"
@@ -369,6 +369,7 @@ def read_schema_dict(in_csv):
         metafield_column_count = 0
         while (in_column_count > in_column_position):
             metafield_name = in_header_row[in_column_position]
+            metafield_name_list.append(metafield_name)
             metafield_column_count += 1
             in_column_position += 1
         schema_dict = dict()
@@ -391,7 +392,7 @@ def read_schema_dict(in_csv):
                 metafield_value = in_row[in_column_position]
                 column_info[metafield_name] = metafield_value
                 metafield_column_position += 1
-                in_column_count += 1
+                in_column_position += 1
             if (None != column_info):
                 table_column_name_list.append(column_name)
                 schema_dict[column_name] = column_info
